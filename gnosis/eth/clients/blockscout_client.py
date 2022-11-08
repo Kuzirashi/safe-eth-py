@@ -55,6 +55,7 @@ class BlockscoutClient:
         EthereumNetwork.RABBIT: "https://rabbit.analogscan.com",
         EthereumNetwork.KCC_MAINNET: "https://scan.kcc.io/",
         EthereumNetwork.KCC_TESTNET: "https://scan-testnet.kcc.network/",
+        EthereumNetwork.AXON_TESTNET: "https://www.axon-node.info/",
     }
 
     def __init__(self, network: EthereumNetwork):

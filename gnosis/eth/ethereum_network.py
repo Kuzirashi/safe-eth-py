@@ -477,6 +477,7 @@ class EthereumNetwork(Enum):
     TOP_MAINNET = 989
     MYOWN_TESTNET = 9999
     UB_SMART_CHAIN_TESTNET = 99998
+    AXON_TESTNET = 10012
 
     @classmethod
     def _missing_(cls, value):
